@@ -1,0 +1,2001 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2.5cm
+\rightmargin 1.25cm
+\bottommargin 1.25cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\series bold
+MACHINE LEARNING
+\end_layout
+
+\begin_layout Standard
+\align center
+Practical File
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+BACHELORS OF TECHNOLOGY
+\end_layout
+
+\begin_layout Standard
+\align center
+Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+SUBMITTED BY
+\end_layout
+
+\begin_layout Standard
+\align center
+AMANPREET KAUR
+\end_layout
+
+\begin_layout Standard
+\align center
+University Roll Number : 2104359
+\end_layout
+
+\begin_layout Standard
+\align center
+College Roll Number : 2121139
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/photo.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+GURU NANAK DEV ENGINEERING COLLEGE
+\end_layout
+
+\begin_layout Standard
+\align center
+LUDHIANA -141006 , INDIA
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Aim: Use of Python libraries
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+INTRODUCTION TO PYTHON LIBRARIES
+\end_layout
+
+\begin_layout Standard
+A Python library is a collection of related modules.
+ It contains bundles of code that can be used repeatedly in different programs.
+ It makes Python Programming simpler and convenient for the programmer.
+ As we don't need to write the same code again and again for different programs.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+TYPES OF PYTHON LIBRARIES
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+NumPy
+\end_layout
+
+\begin_layout Standard
+Pandas
+\end_layout
+
+\begin_layout Standard
+Matplotlib
+\end_layout
+
+\begin_layout Standard
+Scikit 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+NumPy :
+\series default
+ NumPy stands for Numerical Python.NumPy was created in 2005 by Travis Oliphant.Nu
+mPy is a Python library used for working with arrays.It is an open source
+ project and you can use it freely.It also has functions for working in domain
+ of linear algebra, fourier transform, and matrices.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Implemention : 
+\end_layout
+
+\begin_layout LyX-Code
+import numpy as np
+\end_layout
+
+\begin_layout LyX-Code
+arr = np.array([1, 2, 3, 4, 5])
+\end_layout
+
+\begin_layout LyX-Code
+print(arr)
+\end_layout
+
+\begin_layout LyX-Code
+print(type(arr))
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Output :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/numpy.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Aim: Use of Pandas library
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Pandas :
+\series default
+ Pandas is a Python library for data analysis.
+ Started by Wes McKinney in 2008 out of a need for a powerful and flexible
+ quantitative analysis tool, pandas has grown into one of the most popular
+ Python libraries.
+ Pandas acts as a wrapper over these libraries, allowing you to access many
+ of matplotlib's and NumPy's methods with less code.
+ Before pandas, most analysts used Python for data munging and preparation,
+ and then switched to a more domain specific language like R for the rest
+ of their workflow.
+ Pandas introduced two new types of objects for storing data that make analytica
+l tasks easier and eliminate the need to switch tools: Series, which have
+ a list-like structure, and DataFrames, which have a tabular structure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Python Pandas Data Structure The Pandas provides two data structures for
+ processing the data, i.e., Series and DataFrame, which are discussed below:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1)
+\series bold
+ Series :
+\series default
+  It is defined as a one-dimensional array that is capable of storing various
+ data types.
+ The row labels of series are called the index.
+ We can easily convert the list, tuple, and dictionary into series using
+ "series' method.
+ A Series cannot contain multiple columns.
+ It has one parameter : Data: It can be any list, dictionary, or scalar
+ value.
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Implemention : 
+\series default
+
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+import pandas as pd
+\end_layout
+
+\begin_layout LyX-Code
+import numpy as np 
+\end_layout
+
+\begin_layout LyX-Code
+info = np.array(['P','a','n','d','a','s']) 
+\end_layout
+
+\begin_layout LyX-Code
+a = pd.Series(info)
+\end_layout
+
+\begin_layout LyX-Code
+print(a) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Output :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/pandas.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Python Pandas DataFrame : It is a widely used data structure of pandas and
+ works with a two-dimensional array with labeled axes (rows and columns).
+ DataFrame is defined as a standard way to store data and has two different
+ indexes, i.e., row index and column index.
+ It consists of the following properties:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The columns can be heterogeneous types like int, bool, and so on.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It can be seen as a dictionary of Series structure where both the rows and
+ columns are indexed.
+ It is denoted as "columns" in case of columns and "index" in case of rows.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+PROGRAM
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+\align center
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Implemention : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+import pandas as 
+\end_layout
+
+\begin_layout LyX-Code
+x = ['Python', 'Pandas']
+\end_layout
+
+\begin_layout LyX-Code
+df = pd.DataFrame(x)
+\end_layout
+
+\begin_layout LyX-Code
+print(df) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Output :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/datafra,e.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Use of Matplotlib Library
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Matplotlib : 
+\series default
+Matplotlib is a Python library that helps in visualizing and analyzing the
+ data and helps in better understanding of the data with the help of graphical,
+ pictorial visualizations that can be simulated using the matplotlib library.
+ Matplotlib is a comprehensive library for static, animated and interactive
+ visualizations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+PROGRAM
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Implemention : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+import matplotlib.pyplot as plt  
+\end_layout
+
+\begin_layout LyX-Code
+# initializing the data 
+\end_layout
+
+\begin_layout LyX-Code
+x = [10, 20, 30, 40] 
+\end_layout
+
+\begin_layout LyX-Code
+y = [20, 30, 40, 50]   
+\end_layout
+
+\begin_layout LyX-Code
+# plotting the data 
+\end_layout
+
+\begin_layout LyX-Code
+plt.plot(x, y) 
+\end_layout
+
+\begin_layout LyX-Code
+# Adding the title 
+\end_layout
+
+\begin_layout LyX-Code
+plt.title("Simple Plot") 
+\end_layout
+
+\begin_layout LyX-Code
+# Adding the labels
+\end_layout
+
+\begin_layout LyX-Code
+plt.ylabel("y-axis") 
+\end_layout
+
+\begin_layout LyX-Code
+plt.xlabel("x-axis")
+\end_layout
+
+\begin_layout LyX-Code
+plt.show()
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+
+\series bold
+  Output :
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/matplotlib.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Use of Scikit Library
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scikit :
+\series default
+ Scikit-learn is a key library for the Python programming language that
+ is typically used in machine learning projects.
+ Scikit-learn is focused on machine learning tools including mathematical,
+ statistical and general purpose algorithms that form the basis for many
+ machine learning technologies.Scikit-learn (Sklearn) is the most useful
+ and robust library for machine learning in Python.
+ It provides a selection of efficient tools for machine learning and statistical
+ modeling including classification, regression, clustering and dimensionality
+ reduction via a consistence interface in Python.
+ This library, which is largely written in Python, is built upon NumPy,
+ SciPy and Matplotlib.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Aim: Introduction To Data-Science
+\end_layout
+
+\begin_layout Standard
+Data Science is kinda blended with various tools, algorithms, and machine
+ learning principles.
+ Most simply, it involves obtaining meaningful information or insights from
+ structured or unstructured data through a process of analyzing, programming
+ and business skills.
+ It is a field containing many elements like mathematics, statistics, computer
+ science, etc.
+ Those who are good at these respective fields with enough knowledge of
+ the domain in which you are willing to work can call themselves as Data
+ Scientist.
+ It’s not an easy thing to do but not impossible too.
+ You need to start from data, it’s visualization, programming, formulation,
+ development, and deployment of your model.
+ In the future, there will be great hype for data scientist jobs.
+ Taking in that mind, be ready to prepare yourself to fit in this world.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Applications of Data Science 
+\end_layout
+
+\begin_layout Standard
+In Search Engines : The most useful application of Data Science is Search
+ Engines.
+ As we know when we want to search for something on the internet, we mostly
+ used Search engines like Google, Yahoo, Safari, Firefox, etc.
+ So Data Science is used to get Searches faster.
+\end_layout
+
+\begin_layout Standard
+In Transport : Data Science also entered into the Transport field like Driverles
+s Cars.
+ With the help of Driverless Cars, it is easy to reduce the number of Accidents.
+\end_layout
+
+\begin_layout Standard
+In Finance : Data Science plays a key role in Financial Industries.
+ Financial Industries always have an issue of fraud and risk of losses.
+ Thus, Financial Industries needs to automate risk of loss analysis in order
+ to carry out strategic decisions for the company.
+ Also, Financial Industries uses Data Science Analytics tools in order to
+ predict the future.
+ It allows the companies to predict customer lifetime value and their stock
+ market moves.
+ 
+\end_layout
+
+\begin_layout Standard
+In E-Commerce : E-Commerce Websites like Amazon, Flipkart, etc.
+ uses data Science to make a better user experience with personalized recommenda
+tions.
+\end_layout
+
+\begin_layout Standard
+In Health Care : In the Healthcare Industry data science act as a boon.
+ Data Science is used for:
+\end_layout
+
+\begin_layout Standard
+Detecting Tumor
+\end_layout
+
+\begin_layout Standard
+Drug discoveries
+\end_layout
+
+\begin_layout Standard
+Medical Image Analysis
+\end_layout
+
+\begin_layout Standard
+Virtual Medical Bots
+\end_layout
+
+\begin_layout Standard
+Genetics and Genomics
+\end_layout
+
+\begin_layout Standard
+Predictive Modeling for Diagnosis etc.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Aim: Artificial Intelligence
+\end_layout
+
+\begin_layout Standard
+Artificial intelligence (AI) is intelligence demonstrated by machines, as
+ opposed to the natural intelligence displayed by animals including humans.
+ AI research has been defined as the field of study of intelligent agents,
+ which refers to any system that perceives its environment and takes actions
+ that maximize its chance of achieving its goals.[a]
+\end_layout
+
+\begin_layout Standard
+The term "artificial intelligence" had previously been used to describe
+ machines that mimic and display "human" cognitive skills that are associated
+ with the human mind, such as "learning" and "problem-solving".
+ This definition has since been rejected by major AI researchers who now
+ describe AI in terms of rationality and acting rationally, which does not
+ limit how intelligence can be articulated.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Types of Artificial Intelligence 
+\end_layout
+
+\begin_layout Standard
+Artificial intelligence can be divided into two different categories: weak
+ and strong.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Weak artificial intelligence : 
+\series default
+It embodies a system designed to carry out one particular job.
+ Weak AI systems include video games such as the chess example from above
+ and personal assistants such as Amazon's Alexa and Apple's Siri.
+ You ask the assistant a question, and it answers it for you.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Strong artificial intelligence :
+\series default
+ These systems are systems that carry on the tasks considered to be human-like.
+ These tend to be more complex and complicated systems.
+ They are programmed to handle situations in which they may be required
+ to problem solve without having a person intervene.
+ These kinds of systems can be found in applications like self-driving cars
+ or in hospital operating rooms.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Applications of Artificial Intelligence
+\end_layout
+
+\begin_layout Standard
+The applications for artificial intelligence are endless.
+ The technology can be applied to many different sectors and industries.
+ AI is being tested and used in the healthcare industry for dosing drugs
+ and doling out different treatments tailored to specific patients, and
+ for aiding in surgical procedures in the operating room.
+\end_layout
+
+\begin_layout Standard
+Other examples of machines with artificial intelligence include computers
+ that play chess and self-driving cars.
+ Each of these machines must weigh the consequences of any action they take,
+ as each action will impact the end result.
+ In chess, the end result is winning the game.
+ For self-driving cars, the computer system must account for all external
+ data and compute it to act in a way that prevents a collision.Artificial
+ intelligence also has applications in the financial industry, where it
+ is used to detect and flag activity in banking and finance such as unusual
+ debit card usage and large account deposits—all of which help a bank's
+ fraud department.
+ Applications for AI are also being used to help streamline and make trading
+ easier.
+ This is done by making supply, demand, and pricing of securities easier
+ to estimate.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Aim: Machine Learning
+\end_layout
+
+\begin_layout Standard
+Machine Learning is the field of study that gives computers the capability
+ to learn without being explicitly programmed.
+ ML is one of the most exciting technologies that one would have ever come
+ across.
+ As it is evident from the name, it gives the computer that makes it more
+ similar to humans: The ability to learn.
+ Machine learning is actively being used today, perhaps in many more places
+ than one would expect.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Applications of Machine learning
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Image Recognition: 
+\series default
+Image recognition is one of the most common applications of machine learning.
+ It is used to identify objects, persons, places, digital images, etc.
+ The popular use case of image recognition and face detection is, Automatic
+ friend tagging suggestion:Facebook provides us a feature of auto friend
+ tagging suggestion.
+ Whenever we upload a photo with our Facebook friends, then we automatically
+ get a tagging suggestion with name, and the technology behind this is machine
+ learning's face detection and recognition algorithm.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Speech Recognition
+\series default
+ : While using Google, we get an option of "Search by voice," it comes under
+ speech recognition, and it's a popular application of machine learning.Google
+ assistant, Siri, Cortana, and Alexa are using speech recognition technology
+ to follow the voice instructions.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Traffic prediction:
+\series default
+ If we want to visit a new place, we take help of Google Maps, which shows
+ us the correct path with the shortest route and predicts the traffic conditions.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Product recommendations: 
+\series default
+Machine learning is widely used by various e-commerce and entertainment
+ companies such as Amazon, Netflix, etc., for product recommendation to the
+ user.
+ Whenever we search for some product on Amazon, then we started getting
+ an advertisement for the same product while internet surfing on the same
+ browser and this is because of machine learning.
+\end_layout
+
+\begin_layout Standard
+Google understands the user interest using various machine learning algorithms
+ and suggests the product as per customer interest.
+\end_layout
+
+\begin_layout Standard
+As similar, when we use Netflix, we find some recommendations for entertainment
+ series, movies, etc., and this is also done with the help of machine learning.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Self-driving cars: 
+\series default
+One of the most exciting applications of machine learning is self-driving
+ cars.
+ Machine learning plays a significant role in self-driving cars.
+ Tesla, the most popular car manufacturing company is working on self-driving
+ car.
+ It is using unsupervised learning method to train the car models to detect
+ people and objects while driving.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Aim : Traditional Programming vs Machine learning
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Traditional Programming:
+\series default
+ It refers to any manually created program that uses input data and runs
+ on a computer to produce the output.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/traditional.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Machine Learning:
+\series default
+ Machine Learning, also known as augmented analytics, the input data and
+ output are fed to an algorithm to create a program.
+ This yields powerful insights that can be used to predict future outcomes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/machine.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Types of Machine Learning
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Supervised learning
+\end_layout
+
+\begin_layout Standard
+Semi-supervised Learning
+\end_layout
+
+\begin_layout Standard
+Unsupervised Learning
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Supervised Learning:
+\series default
+ It is the types of machine learning in which machines are trained using
+ well "labelled" training data, and on basis of that data, machines predict
+ the output.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Semi-supervised learning:
+\series default
+ It is a learning problem that involves a small number of labeled examples
+ and a large number of unlabeled examples.Learning problems of this type
+ are challenging as neither supervised nor unsupervised learning algorithms
+ are able to make effective use of the mixtures of labeled and untellable
+ data.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Unsupervised learning:
+\series default
+ It is a type of machine learning in which models are trained using unlabeled
+ dataset and are allowed to act on that data without any supervision.
+\end_layout
+
+\begin_layout Section
+Aim: Regression
+\end_layout
+
+\begin_layout Standard
+Regression is a method for understanding the relationship between independent
+ variables or features and a dependent variable or outcome.Machine learning
+ regression generally involves plotting a line of best fit through the data
+ points.
+ The distance between each point and the line is minimised to achieve the
+ best fit line.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/regression.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Simple Linear Regression:
+\series default
+ Linear regression is the most basic form of regression algorithms in machine
+ learning.
+ The model consists of a single parameter and a dependent variable has a
+ linear relationship.
+ When the number of independent variables increases, it is called the multiple
+ linear regression models.We denote simple linear regression by the following
+ equation given below:
+\end_layout
+
+\begin_layout Standard
+\align center
+y = mx + c + e
+\end_layout
+
+\begin_layout Standard
+\align center
+where m is the slope of the line, c is an intercept, and e represents the
+ error in the model.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/simple linear.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Simple Linear Regression
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Multiple Linear Regression:
+\series default
+ Simple linear regression allows a data scientist or data analyst to make
+ predictions about only one variable by training the model and predicting
+ another variable.
+ In a similar way, a multiple regression model extends to several more than
+ one variable.
+\end_layout
+
+\begin_layout Standard
+Simple linear regression uses the following linear function to predict the
+ value of a target variable y, with independent variable x?:
+\end_layout
+
+\begin_layout Standard
+\align center
+y = b0 + b1x1
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/multiple.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Multiple Linear Regression
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Polynomial Regression:
+\series default
+ In a polynomial regression, the power of the independent variable is more
+ than 1.
+ The equation below represents a polynomial equation:
+\end_layout
+
+\begin_layout Standard
+\align center
+y = a + bx2
+\end_layout
+
+\begin_layout Standard
+In this regression technique, the best fit line is not a straight line.
+ It is rather a curve that fits into the data points.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/polynomial.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Polynomial Regression
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Decision-Tree Regression:
+\series default
+ It can be used to solve both Regression and Classification tasks with the
+ latter being put more into practical application.It is a tree-structured
+ classifier with three types of nodes.
+ The Root Node is the initial node which represents the entire sample and
+ may get split further into further nodes.
+ The Interior Nodes represent the features of a data set and the branches
+ represent the decision rules.
+ Finally, the Leaf Nodes represent the outcome.
+ This algorithm is very useful for solving decision-related problems.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/decision tree.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Decison-Tree Regression
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Random Forest Regression:
+\series default
+ Random Forest is a classifier that contains a number of decision trees
+ on various subsets of the given dataset and takes the average to improve
+ the predictive accuracy of that dataset.The greater number of trees in the
+ forest leads to higher accuracy and prevents the problem of overfitting.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/random forest.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Random Forest Regression
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Support Vector Regression:
+\series default
+ Support Vector Regression is similar to Linear Regression in that the equation
+ of the line is y= wx+b In SVR, this straight line is referred to as hyperplane.
+ The data points on either side of the hyperplane that are closest to the
+ hyperplane are called Support Vectors which is used to plot the boundary
+ line.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/support vector.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Support Vector Regression
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Classification
+\end_layout
+
+\begin_layout Standard
+Classification is a process of categorizing a given set of data into classes,
+ It can be performed on both structured or unstructured data.
+ Classification algorithms are used when the output variable is categorical,
+ which means there are two classes such as Yes-No, Male-Female, True-false,
+ etc.The process starts with predicting the class of given data points.The
+ classification predictive modeling is the task of approximating the mapping
+ function from input variables to discrete output variables.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/classification.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+K-Nearest Neighbor(KNN) Algorithm for Machine Learning:
+\series default
+ K-NN is a non-parametric algorithm, which means it does not make any assumption
+ on underlying data.
+ It is also called a lazy learner algorithm because it does not learn from
+ the training set immediately instead it stores the dataset and at the time
+ of classification, it performs an action on the dataset.
+ KNN algorithm at the training phase just stores the dataset and when it
+ gets new data, then it classifies that data into a category that is much
+ similar to the new data.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Example: 
+\series default
+Suppose, we have an image of a creature that looks similar to cat and dog,
+ but we want to know either it is a cat or dog.
+ So for this identification, we can use the KNN algorithm, as it works on
+ a similarity measure.
+ Our KNN model will find the similar features of the new data set to the
+ cats and dogs images and based on the most similar features it will put
+ it in either cat or dog category.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/knn.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+How does K-NN work?
+\end_layout
+
+\begin_layout Standard
+Suppose we have a new data point and we need to put it in the required category.
+ Consider the below image:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/knn work.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Firstly, we will choose the number of neighbors, so we will choose the k=5.
+\end_layout
+
+\begin_layout Standard
+Next, we will calculate the Euclidean distance between the data points.
+ The Euclidean distance is the distance between two points, which we have
+ already studied in geometry.
+ It can be calculated as: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/workk.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By calculating the Euclidean distance we got the nearest neighbors, as three
+ nearest neighbors in category A and two nearest neighbors in category B.
+ Consider the below image: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/knn graph.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we can see the 3 nearest neighbors are from category A, hence this new
+ data point must belong to category A.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Confusion Matrix: 
+\series default
+A confusion matrix presents a table layout of the different outcomes of
+ the prediction and results of a classification problem and helps visualize
+ its outcomes.
+\end_layout
+
+\begin_layout Standard
+It plots a table of all the predicted and actual values of a classifier.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/matrix.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can obtain four different combinations from the predicted and actual
+ values of a classifier:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/confusion matrix.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+True Positive:
+\series default
+ The number of times our actual positive values are equal to the predicted
+ positive.
+ You predicted a positive value, and it is correct.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+False Positive:
+\series default
+ The number of times our model wrongly predicts negative values as positives.
+ You predicted a negative value, and it is actually positive.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+True Negative:
+\series default
+ The number of times our actual negative values are equal to predicted negative
+ values.
+ You predicted a negative value, and it is actually negative.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+False Negative:
+\series default
+ The number of times our model wrongly predicts negative values as positives.
+ You predicted a negative value, and it is actually positive.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Confusion Matrix Metrics
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/confusion.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider a confusion matrix made for a classifier that classifies people
+ based on whether they speak English or Spanish.
+\end_layout
+
+\begin_layout Standard
+From the above diagram, we can see that:
+\end_layout
+
+\begin_layout Standard
+True Positives (TP) = 86
+\end_layout
+
+\begin_layout Standard
+True Negatives (TN) = 79
+\end_layout
+
+\begin_layout Standard
+False Positives (FP) = 12
+\end_layout
+
+\begin_layout Standard
+False Negatives (FN) = 10
+\end_layout
+
+\begin_layout Standard
+Accuracy: The accuracy is used to find the portion of correctly classified
+ values.
+ It tells us how often our classifier is right.
+ It is the sum of all true values divided by total values.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/accuracy.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Introduction to K-Means Algorithm: 
+\series default
+K-means clustering algorithm computes the centroids and iterates until we
+ it finds optimal centroid.
+ It assumes that the number of clusters are already known.
+ It is also called flat clustering algorithm.
+ The number of clusters identified from data by algorithm is represented
+ by ‘K’ in K-means.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Intuition: 
+\series default
+By following the procedure for initialization, we pick up centroids that
+ are far away from one another.
+ This increases the chances of initially picking up centroids that lie in
+ different clusters.
+ Also, since centroids are picked up from the data points, each centroid
+ has some data points associated with it at the end.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/how.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/k.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/a.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/aa.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/b.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/bb.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/c.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/cc.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For example, consider the images shown below.
+ A poor initialization of centroids resulted in poor clustering.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/poor clustering.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is how the clustering should have been: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/ideal clustering.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+K-mean++:
+\series default
+ This algorithm ensures a smarter initialization of the centroids and improves
+ the quality of the clustering.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Random Initialization Trap: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/r.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/e.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/rr.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/tt.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/in.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/tr.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/pp.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/ii.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/a/Pictures/yy.PNG
+	lyxscale 75
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
